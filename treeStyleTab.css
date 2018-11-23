@@ -1,0 +1,21 @@
+.tab {
+  height: 25px !important;
+  background-color: #303030;
+  color: #FFFFFF;
+}
+
+.tab .label {
+  font-size: 12px !important;
+}
+
+.tab:not(:hover) .closebox {
+  display: none;
+}
+
+#tabbar {
+  background-color: #202020
+}
+
+.after-tabs button {
+  background-color: #1A1A1A;
+}
