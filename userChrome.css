@@ -1,18 +1,19 @@
 /*HIDE TAB BAR*/
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
-  display: none;
+  display: none !important;
 }
 
 #TabsToolbar > * {
-  visibility: collapse;
+  visibility: collapse !important;
 }
 
+
 /*VERTICAL CENTERED MENU BARS ITEMS*/
-#main-menubar menu {
-	padding-top: 5px;
+#main-menubar > menu {
+	padding-top: 4px !important;
 }
 
 /*REMOVE BOOKMARK TEXTS IN TOOLBAR*/
-.toolbarbutton-text {
+.bookmark-item > .toolbarbutton-text {
 	display:none !important;
 }
